@@ -1,0 +1,101 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+#container{
+    background-color: rgb(248, 238, 224);
+    max-width: 800px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.clear{clear: both; background-color: aquamarine;}
+
+#headerDetail{
+    background-color: rgba(255, 228, 195, 0.719);
+    padding: 20px 30px;
+    border-bottom: 3px solid #f3d050;
+}
+/* -------------------header information---------------- */
+
+#avatar{
+    width: 15%;
+    float: left;
+    margin-right: 20px;
+}
+
+#avatar img{
+    width: 100%;
+    -webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#authorName{
+    float: left;
+}
+
+#authorName h1 {
+	font-size: 2.2em;
+	font-weight: 600;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#authorName h2 {
+	font-size: 1.7em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#contactDetail{
+    float: right;
+}
+
+#contactDetail > ul {
+    list-style-type: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~~ header information ~~~~~~~~~~~~~~~~ */
+
+/* -------------------body information---------------- */
+
+#mainForm{
+    padding: 10px 40px;
+}
+
+section{
+    border-bottom: 1px solid #ddb25ca8;
+    padding: 20px 0;
+}
+
+.sectionTitle{
+    float: left;
+    width: 25%;
+}
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+.sectionContent{
+    float: right;
+    width: 72.5%;
+}
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.sectionContent article:not(:first-child){
+    margin-top: 20px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~ body information ~~~~~~~~~~~~~~~~ */
